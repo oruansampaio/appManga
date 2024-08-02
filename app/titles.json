@@ -1,0 +1,16 @@
+{
+    "listTitles": [
+        {
+            "id": 1,
+            "title": "Naruto",
+            "description": "Assim como o expresso é a base para muitas bebidas de café, C é uma linguagem fundamental amplamente usada como base para muitas outras linguagens de programação.",
+            "image": "manga-1"
+        },
+        {
+            "id": 2,
+            "title": "Bleach",
+            "description": "O Python é conhecido por sua simplicidade e sua capacidade de 'suavizar' o processo de programação, assim como o leite suaviza o sabor do café no latte",
+            "image": "manga-2"
+        }
+    ]
+}
