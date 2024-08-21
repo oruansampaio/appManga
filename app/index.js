@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>MANGAPP</Text>
-      <Image style={styles.logo} source={require('../assets/images/logo.png')} />
+      <Image style={styles.logo} source={require('../assets/images/logo2.png')} />
       
       <Link href="/titles" style={styles.button} asChild>
         <Pressable>
@@ -25,8 +25,16 @@ export default function Index() {
           <Text style={styles.buttonText}>Sobre nós!</Text>
         </Pressable>
       </Link>
-    </View>
-  );
+    
+
+<Link href="/flex" style={styles.button} asChild>
+<Pressable>
+  <Text style={styles.buttonText}>Flex</Text>
+</Pressable>
+</Link>
+</View>
+
+);
 }
 
 const styles = StyleSheet.create({
@@ -34,11 +42,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#40363F',
+    backgroundColor: '#F2E205',
   },
   title: {
     fontWeight: 'bold',
-    color: '#F2E205',
+    color: '#090909',
     fontSize: 40,
     marginBottom: 20,
   },
@@ -50,7 +58,7 @@ const styles = StyleSheet.create({
   button: {
     width: '80%',
     margin: 10,
-    backgroundColor: '#F2CB07',
+    backgroundColor: '#090909',
     borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
@@ -64,7 +72,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 18,
-    color: '#40363F',
+    color: '#f2f2f2',
     fontWeight: 'bold',
   },
 });

@@ -29,13 +29,13 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         marginVertical: 20,
-        color: '#F2E205',
+        color: '#F2f2f2',
         fontSize: 24,
     },
     container: {
         flex: 1,
         padding: 20,
-        backgroundColor: '#40363F',
+        backgroundColor: '#090909',
     },
     itemContainer: {
         marginBottom: 20,
