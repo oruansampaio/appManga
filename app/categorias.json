@@ -1,0 +1,16 @@
+{
+    "listCategorias": [
+        {
+            "id": 1,
+            "title": "Ação",
+            "description": "Mangas de ação focam em batalhas, aventuras e confrontos intensos com ritmo rápido e cenas dinâmicas.",
+            "image": "manga-1"
+        },
+        {
+            "id": 2,
+            "title": "Romance",
+            "description": "Mangas de romance exploram relações emocionais e relacionamentos, com foco em sentimentos, encontros e desenvolvimentos amorosos.",
+            "image": "manga-2"
+        }
+    ]
+}

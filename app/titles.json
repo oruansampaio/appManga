@@ -3,14 +3,16 @@
         {
             "id": 1,
             "title": "Naruto",
-            "description": "Assim como o expresso é a base para muitas bebidas de café, C é uma linguagem fundamental amplamente usada como base para muitas outras linguagens de programação.",
-            "image": "manga-1"
+            "description": "Naruto é uma série de mangá\nescrita e ilustrada por Masashi \nKishimoto, que conta a \nhistória de Naruto Uzumaki,\num jovem ninja que\nconstantemente procura por\nreconhecimento...",
+            "image": "manga-1",
+            "header": "header-1"
         },
         {
             "id": 2,
             "title": "Bleach",
-            "description": "O Python é conhecido por sua simplicidade e sua capacidade de 'suavizar' o processo de programação, assim como o leite suaviza o sabor do café no latte",
-            "image": "manga-2"
+            "description": "Ichigo Kurosaki, um adolescente que ganha poderes de ceifador de almas e deve proteger os vivos dos espíritos malignos enquanto guia almas para o além e enfrenta ameaças sobrenaturais.",
+            "image": "manga-2",
+            "header": "header-2"
         }
     ]
 }

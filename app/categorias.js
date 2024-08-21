@@ -1,33 +1,23 @@
 import { Text, ScrollView, View, Image, StyleSheet } from "react-native";
 import { Link } from "expo-router";
-import list from './titles.json';
+import list from './categorias.json';
 import imageMapping from './imageMapping';
 
-export default function Titles() {
+export default function Categorias() {
     return (
         <ScrollView style={styles.container}>
-            <Text style={styles.title}>Títulos Disponíveis</Text>
+            <Text style={styles.title}>Categorias</Text>
 
-            {list.listTitles.map((item) => (
+            {list.listCategorias.map((item) => (
                 <View key={item.id} style={styles.itemContainer}>
                     <View style={styles.itemContent}>
-                        <Image source={imageMapping[item.image]} style={styles.image} />
+                        {/* <Image source={imageMapping[item.image]} style={styles.image} /> */}
                         <View style={styles.textContainer}>
                             <Text style={styles.titleProduct}>{item.id}. {item.title}</Text>
                             <Text style={styles.description}>{item.description}</Text>
                         </View>
                     </View>
-                    <Link
-                        href={{
-                            pathname: "/mangaSingle/[id]",
-                            params: { id: item.id }
-                        }}
-                        asChild
-                    >
-                        <View style={styles.itemLink}>
-                            <Text style={styles.linkText}>Acessar</Text>
-                        </View>
-                    </Link>
+                    
                 </View>
             ))}
         </ScrollView>
@@ -39,25 +29,19 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         marginVertical: 20,
-        color: '#E8E728',
+        color: '#F2E205',
         fontSize: 24,
     },
     container: {
         flex: 1,
         padding: 20,
-        backgroundColor: '#090909',
+        backgroundColor: '#40363F',
     },
     itemContainer: {
         marginBottom: 20,
         backgroundColor: '#F2F2F2',
         borderRadius: 8,
         overflow: 'hidden',
-        shadowColor: '#000', // Cor da sombra
-        shadowOffset: { width: 0, height: 5 }, // Deslocamento da sombra
-        shadowOpacity: 0.3, // Opacidade da sombra
-        shadowRadius: 10, // Raio da sombra
-        // Sombra para Android
-        elevation: 5, // Elevação para sombra
     },
     itemContent: {
         flexDirection: 'row',
@@ -84,18 +68,12 @@ const styles = StyleSheet.create({
         textAlign: 'left',
     },
     itemLink: {
-        backgroundColor: '#E8E728',
+        backgroundColor: '#F2CB07',
         paddingVertical: 15,
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 8,
         margin: 10,
-        shadowColor: '#000', // Cor da sombra
-        shadowOffset: { width: 0, height: 5 }, // Deslocamento da sombra
-        shadowOpacity: 0.3, // Opacidade da sombra
-        shadowRadius: 10, // Raio da sombra
-        // Sombra para Android
-        elevation: 5, // Elevação para sombra
     },
     linkText: {
         color: '#40363F',

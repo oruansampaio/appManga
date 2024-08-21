@@ -19,6 +19,8 @@ export default function RootLayout() {
       <Stack.Screen name="index" options={{ title: "MangApp" }} />
       <Stack.Screen name="titles" options={{ title: "Titles" }} />
       <Stack.Screen name="mangaSingle/[id]" options={{ title: 'Manga Single' }} />
+      <Stack.Screen name="about" options={{ title: "about" }} />
+      <Stack.Screen name="categorias" options={{ title: "categorias" }} />
     </Stack>
   );
 }
