@@ -20,6 +20,12 @@ export default function Index() {
       </Link>
     
       
+      <Link href="/lojas" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>Lojas</Text>
+        </Pressable>
+      </Link>
+    
       <Link href="/about" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Sobre nós!</Text>

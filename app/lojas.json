@@ -1,0 +1,14 @@
+{
+    "listLojas": [
+        {
+            "id": 1,
+            "name": "Mangá Mania",
+            "description": "Mangá Mania é a loja ideal para os fãs de mangás e animes. Oferecemos uma vasta coleção de títulos, desde os mais populares até as novidades mais recentes. Além disso, temos artigos colecionáveis e acessórios relacionados ao mundo dos mangás."
+        },
+        {
+            "id": 2,
+            "name": "Kawaii Manga Shop",
+            "description": "Kawaii Manga Shop é a loja dos seus sonhos para tudo relacionado a mangás e cultura kawaii. Nossa seleção inclui os melhores mangás, produtos de anime e itens colecionáveis com um toque adorável."
+        }
+    ]
+}

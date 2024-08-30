@@ -22,6 +22,7 @@ export default function RootLayout() {
       <Stack.Screen name="about" options={{ title: "about" }} />
       <Stack.Screen name="categorias" options={{ title: "categorias" }} />
       <Stack.Screen name="flex" options={{ title: "flex" }} />
+      <Stack.Screen name="lojas" options={{ title: "lojas" }} />
     </Stack>
   );
 }
