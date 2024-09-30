@@ -1,5 +1,4 @@
 import { Text, ScrollView, View, Image, StyleSheet } from "react-native";
-import { Link } from "expo-router";
 import list from './categorias.json';
 import imageMapping from './imageMapping';
 
@@ -17,7 +16,6 @@ export default function Categorias() {
                             <Text style={styles.description}>{item.description}</Text>
                         </View>
                     </View>
-                    
                 </View>
             ))}
         </ScrollView>
@@ -29,7 +27,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         fontWeight: 'bold',
         marginVertical: 20,
-        color: '#F2f2f2',
+        color: '#F2F2F2',
         fontSize: 24,
     },
     container: {
@@ -42,6 +40,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#F2F2F2',
         borderRadius: 8,
         overflow: 'hidden',
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 5 },
+        shadowOpacity: 0.3,
+        shadowRadius: 10,
+        elevation: 5, // Sombra para Android
     },
     itemContent: {
         flexDirection: 'row',
@@ -66,18 +69,5 @@ const styles = StyleSheet.create({
         fontSize: 14,
         lineHeight: 18,
         textAlign: 'left',
-    },
-    itemLink: {
-        backgroundColor: '#F2CB07',
-        paddingVertical: 15,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius: 8,
-        margin: 10,
-    },
-    linkText: {
-        color: '#40363F',
-        fontWeight: 'bold',
-        fontSize: 16,
-    },
+    }
 });

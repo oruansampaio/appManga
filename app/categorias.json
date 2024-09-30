@@ -11,6 +11,54 @@
             "title": "Romance",
             "description": "Mangas de romance exploram relações emocionais e relacionamentos, com foco em sentimentos, encontros e desenvolvimentos amorosos.",
             "image": "manga-2"
+        },
+        {
+            "id": 3,
+            "title": "Comédia",
+            "description": "Mangas de comédia trazem histórias leves e engraçadas, focadas em situações cômicas e personagens divertidos.",
+            "image": "manga-3"
+        },
+        {
+            "id": 4,
+            "title": "Fantasia",
+            "description": "Mangas de fantasia apresentam mundos mágicos, criaturas místicas e enredos que desafiam a realidade, cheios de aventura e mistério.",
+            "image": "manga-4"
+        },
+        {
+            "id": 5,
+            "title": "Terror",
+            "description": "Mangas de terror exploram temas sombrios e assustadores, envolvendo fantasmas, criaturas macabras e mistérios sobrenaturais.",
+            "image": "manga-5"
+        },
+        {
+            "id": 6,
+            "title": "Sci-Fi",
+            "description": "Mangas de ficção científica abordam temas futuristas como tecnologia avançada, robôs, espaço e sociedades distópicas.",
+            "image": "manga-6"
+        },
+        {
+            "id": 7,
+            "title": "Slice of Life",
+            "description": "Mangas de Slice of Life focam nas experiências do cotidiano, retratando situações comuns e relacionamentos de maneira realista.",
+            "image": "manga-7"
+        },
+        {
+            "id": 8,
+            "title": "Esportes",
+            "description": "Mangas de esportes seguem a jornada de atletas e equipes, explorando desafios, competições e o desenvolvimento dos personagens no mundo esportivo.",
+            "image": "manga-8"
+        },
+        {
+            "id": 9,
+            "title": "Mistério",
+            "description": "Mangas de mistério envolvem investigações e resolução de crimes, com enredos que mantêm o leitor intrigado até o final.",
+            "image": "manga-9"
+        },
+        {
+            "id": 10,
+            "title": "Aventura",
+            "description": "Mangas de aventura seguem personagens em jornadas épicas por terras desconhecidas, enfrentando desafios e desvendando segredos ao longo do caminho.",
+            "image": "manga-10"
         }
     ]
 }

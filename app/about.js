@@ -5,12 +5,15 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.mainText}>
-        Somos um app para ler mangá em qualquer hora ou lugar!
+        Encontre seus mangás favoritos a qualquer hora, em qualquer lugar, com praticidade e conforto!
       </Text>
-      
-      <Link href="/about" style={styles.button} asChild>
+      <Text style={styles.secondaryText}>
+        Com uma vasta game de opções, oferecemos a melhor experiência para os fãs de mangá.
+      </Text>
+
+      <Link href="/titles" style={styles.button} asChild>
         <TouchableOpacity>
-          <Text style={styles.buttonText}>Saiba Mais</Text>
+          <Text style={styles.buttonText}>Comece a ler agora</Text>
         </TouchableOpacity>
       </Link>
     </View>
@@ -28,9 +31,17 @@ const styles = StyleSheet.create({
   mainText: {
     fontWeight: 'bold',
     color: '#F2E205',
-    fontSize: 24,
+    fontSize: 26,
     textAlign: 'center',
-    marginBottom: 20,
+    marginBottom: 15,
+    lineHeight: 34,
+  },
+  secondaryText: {
+    color: '#F2F2F2',
+    fontSize: 18,
+    textAlign: 'center',
+    marginBottom: 40,
+    lineHeight: 26,
   },
   button: {
     position: 'absolute',
@@ -46,5 +57,10 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     paddingHorizontal: 20,
     borderRadius: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 10,
+    elevation: 5,
   },
 });

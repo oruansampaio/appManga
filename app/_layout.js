@@ -16,13 +16,12 @@ export default function RootLayout() {
       }}
     >
       {/* <Stack.Screen name="index" options={{ headerShown: false }} /> */}
-      <Stack.Screen name="index" options={{ title: "MangApp" }} />
-      <Stack.Screen name="titles" options={{ title: "Titles" }} />
-      <Stack.Screen name="mangaSingle/[id]" options={{ title: 'Manga Single' }} />
-      <Stack.Screen name="about" options={{ title: "about" }} />
-      <Stack.Screen name="categorias" options={{ title: "categorias" }} />
-      <Stack.Screen name="flex" options={{ title: "flex" }} />
-      <Stack.Screen name="lojas" options={{ title: "lojas" }} />
+      <Stack.Screen name="index" options={{ title: "Home" }} />
+      <Stack.Screen name="titles" options={{ title: "Títulos" }} />
+      <Stack.Screen name="mangaSingle/[id]" options={{ title: 'Título' }} />
+      <Stack.Screen name="about" options={{ title: "Sobre" }} />
+      <Stack.Screen name="categorias" options={{ title: "Categorias" }} />
+      <Stack.Screen name="lojas" options={{ title: "Lojas" }} />
     </Stack>
   );
 }

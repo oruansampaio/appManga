@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>MANGAPP</Text>
-      <Image style={styles.logo} source={require('../assets/images/logo2.png')} />
+      <Image style={styles.logo} source={require('../assets/images/logo.png')} />
       
       <Link href="/titles" style={styles.button} asChild>
         <Pressable>
@@ -33,11 +33,7 @@ export default function Index() {
       </Link>
     
 
-<Link href="/flex" style={styles.button} asChild>
-<Pressable>
-  <Text style={styles.buttonText}>Flex</Text>
-</Pressable>
-</Link>
+
 </View>
 
 );

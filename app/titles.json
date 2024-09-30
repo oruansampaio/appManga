@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Naruto",
-            "description": "Naruto é uma série de mangá\nescrita e ilustrada por Masashi \nKishimoto, que conta a \nhistória de Naruto Uzumaki,\num jovem ninja que\nconstantemente procura por\nreconhecimento...",
+            "description": "Naruto é uma série de mangá escrita e ilustrada por Masashi Kishimoto, que conta a história de Naruto Uzumaki, um jovem ninja que constantemente procura por reconhecimento.",
             "image": "manga-1",
             "header": "header-1"
         },
@@ -13,6 +13,62 @@
             "description": "Ichigo Kurosaki, um adolescente que ganha poderes de ceifador de almas e deve proteger os vivos dos espíritos malignos enquanto guia almas para o além e enfrenta ameaças sobrenaturais.",
             "image": "manga-2",
             "header": "header-2"
+        },
+        {
+            "id": 3,
+            "title": "One Piece",
+            "description": "Luffy, um jovem pirata com um corpo elástico, embarca em uma jornada para encontrar o lendário tesouro One Piece e se tornar o Rei dos Piratas.",
+            "image": "manga-3",
+            "header": "header-3"
+        },
+        {
+            "id": 4,
+            "title": "Attack on Titan",
+            "description": "Humanidade luta pela sobrevivência contra gigantescos Titãs que devoram pessoas, enquanto segredos sobre o mundo e os Titãs são gradualmente revelados.",
+            "image": "manga-4",
+            "header": "header-4"
+        },
+        {
+            "id": 5,
+            "title": "Jujutsu Kaisen",
+            "description": "Yuji Itadori, um estudante do ensino médio com habilidades físicas excepcionais, se envolve no mundo dos feiticeiros jujutsu ao consumir um dedo amaldiçoado, parte do espírito maligno Sukuna, e luta para proteger o mundo de maldições perigosas.",
+            "image": "manga-5",
+            "header": "header-5"
+        },
+        {
+            "id": 6,
+            "title": "Fullmetal Alchemist",
+            "description": "Os irmãos Elric buscam a Pedra Filosofal para restaurar seus corpos após um experimento de alquimia que deu terrivelmente errado.",
+            "image": "manga-6",
+            "header": "header-6"
+        },
+        {
+            "id": 7,
+            "title": "Demon Slayer",
+            "description": "Tanjiro Kamado se torna um matador de demônios após sua família ser assassinada por demônios, e busca uma cura para sua irmã Nezuko, que foi transformada em um deles.",
+            "image": "manga-7",
+            "header": "header-7"
+        },
+        {
+            "id": 8,
+            "title": "My Hero Academia",
+            "description": "Em um mundo onde quase todos possuem superpoderes, Izuku Midoriya, um jovem sem poderes, sonha em se tornar o maior herói e herda o poder do lendário All Might.",
+            "image": "manga-8",
+            "header": "header-8"
+        },
+        {
+            "id": 9,
+            "title": "Death Note",
+            "description": "Light Yagami encontra um caderno sobrenatural que concede o poder de matar qualquer pessoa, e inicia uma cruzada para eliminar todos os criminosos do mundo.",
+            "image": "manga-9",
+            "header": "header-9"
+        },
+        {
+            "id": 10,
+            "title": "Hunter x Hunter",
+            "description": "Gon Freecss, um jovem prodígio, embarca em uma jornada para se tornar um Caçador lendário e encontrar seu pai, um renomado Caçador.",
+            "image": "manga-10",
+            "header": "header-10"
         }
     ]
 }

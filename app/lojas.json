@@ -9,6 +9,46 @@
             "id": 2,
             "name": "Kawaii Manga Shop",
             "description": "Kawaii Manga Shop é a loja dos seus sonhos para tudo relacionado a mangás e cultura kawaii. Nossa seleção inclui os melhores mangás, produtos de anime e itens colecionáveis com um toque adorável."
+        },
+        {
+            "id": 3,
+            "name": "Otaku World",
+            "description": "Otaku World é uma loja especializada em mangás, animes e cultura pop japonesa. Aqui você encontra uma grande variedade de produtos exclusivos, incluindo edições raras e limitadas de seus mangás favoritos."
+        },
+        {
+            "id": 4,
+            "name": "Anime Dreams",
+            "description": "Na Anime Dreams, você pode mergulhar no universo dos animes e mangás. Oferecemos uma ampla gama de títulos, acessórios e produtos colecionáveis que são perfeitos para os fãs mais dedicados."
+        },
+        {
+            "id": 5,
+            "name": "Shonen House",
+            "description": "Shonen House é a loja número um para os fãs de mangás shonen. Temos desde clássicos como Dragon Ball e Naruto até as mais recentes aventuras de heróis e vilões. Visite-nos e explore nosso catálogo!"
+        },
+        {
+            "id": 6,
+            "name": "Mangateca",
+            "description": "A Mangateca é o paraíso dos colecionadores de mangás. Com uma coleção vasta e diversificada, aqui você encontrará edições novas e usadas, além de produtos relacionados ao universo otaku."
+        },
+        {
+            "id": 7,
+            "name": "Mundo Anime",
+            "description": "Mundo Anime é uma loja completa para quem ama mangás, animes e cultura pop. Oferecemos não só os últimos lançamentos, mas também uma linha de roupas, acessórios e figuras colecionáveis."
+        },
+        {
+            "id": 8,
+            "name": "Senpai Store",
+            "description": "Na Senpai Store, você encontra tudo o que um verdadeiro fã de mangás precisa. Com uma seleção curada de títulos e produtos inspirados no mundo dos animes, é o local perfeito para expandir sua coleção."
+        },
+        {
+            "id": 9,
+            "name": "Neko Manga",
+            "description": "Neko Manga é uma loja especializada em mangás e produtos de cultura japonesa. Nosso catálogo inclui uma ampla variedade de gêneros e títulos, além de produtos exclusivos que só você encontrará aqui."
+        },
+        {
+            "id": 10,
+            "name": "Akihabara Shop",
+            "description": "Inspirada no famoso distrito de tecnologia e cultura pop de Tóquio, Akihabara Shop traz para você uma seleção incrível de mangás, animes e produtos geek. Descubra as novidades e aumente sua coleção!"
         }
     ]
 }
