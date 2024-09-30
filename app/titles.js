@@ -1,4 +1,4 @@
-import { Text, ScrollView, View, Image, StyleSheet } from "react-native";
+import { Text, ScrollView, View, Image, StyleSheet, Pressable } from "react-native";
 import { Link } from "expo-router";
 import list from './titles.json';
 import imageMapping from './imageMapping';
@@ -23,10 +23,11 @@ export default function Titles() {
                             params: { id: item.id }
                         }}
                         asChild
-                    >
+                    ><Pressable>
                         <View style={styles.itemLink}>
                             <Text style={styles.linkText}>Acessar</Text>
                         </View>
+                        </Pressable>
                     </Link>
                 </View>
             ))}

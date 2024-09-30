@@ -16,7 +16,7 @@ const imageMapping = {
     "header-4": require('../assets/images/manga/attackontitanheader.jpg'),
     "header-7": require('../assets/images/manga/demonslayerheader.jpg'),
     "header-8": require('../assets/images/manga/myheroacademiaheader.jpg'),
-    "header-10": require('../assets/images/manga/deathnote.jpg'),
+    "header-9": require('../assets/images/manga/deathnoteheader.jpg'),
     "header-6": require('../assets/images/manga/fullmetalheader.jpg'),
     "header-10": require('../assets/images/manga/hunterxhunterheader.jpeg'),
     "header-5": require('../assets/images/manga/jujutsukaisenheader.jpg')
