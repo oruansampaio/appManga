@@ -22,6 +22,8 @@ export default function RootLayout() {
       <Stack.Screen name="about" options={{ title: "Sobre" }} />
       <Stack.Screen name="categorias" options={{ title: "Categorias" }} />
       <Stack.Screen name="lojas" options={{ title: "Lojas" }} />
+      <Stack.Screen name="firebase" options={{ title: "firebase" }} />
+      <Stack.Screen name="firebaseCrud" options={{ title: "firebaseCrud" }} />
     </Stack>
   );
 }

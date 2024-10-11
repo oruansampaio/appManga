@@ -7,6 +7,18 @@ export default function Index() {
       <Text style={styles.title}>MANGAPP</Text>
       <Image style={styles.logo} source={require('../assets/images/logo.png')} />
       
+      <Link href="/firebase" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>Firebase</Text>
+        </Pressable>
+      </Link>
+    
+      <Link href="/firebaseCrud" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>Firebase Crud</Text>
+        </Pressable>
+      </Link>
+
       <Link href="/titles" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Comece a ler agora!</Text>
@@ -31,6 +43,8 @@ export default function Index() {
           <Text style={styles.buttonText}>Sobre nós!</Text>
         </Pressable>
       </Link>
+
+     
     
 
 
