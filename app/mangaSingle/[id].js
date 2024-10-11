@@ -191,25 +191,6 @@ export default function MangaSingle() {
     }
 
     return (
-        // <SafeAreaView style={styles.container}>
-        //     <ScrollView style={styles.scrollView}>
-        //         <Image
-        //             style={styles.headerImage}
-        //             source={imageMapping[data.header]}
-        //             resizeMode="cover" // Ajusta a imagem para cobrir o espaço do cabeçalho
-        //         />
-        //         <View style={styles.contentContainer}>
-        //             <Text style={styles.title}>{data.title}</Text>
-        //             <Text style={styles.description}>{data.description}</Text>
-        //         </View>
-        //         <Image
-        //             style={styles.additionalImage}
-        //             source={imageMapping[data.image]} 
-        //             resizeMode="stretch" // Ajusta a imagem para preencher a largura disponível
-        //         />
-        //     </ScrollView>
-        // </SafeAreaView>
-
 
 
         <SafeAreaView style={styles.container}>
