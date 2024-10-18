@@ -6,13 +6,19 @@ export default function Index() {
     <View style={styles.container}>
       <Text style={styles.title}>MANGAPP</Text>
       <Image style={styles.logo} source={require('../assets/images/logo.png')} />
-      
+
       <Link href="/firebase" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Firebase</Text>
         </Pressable>
       </Link>
-    
+
+      <Link href="/notification" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>Notificação</Text>
+        </Pressable>
+      </Link>
+
       <Link href="/firebaseCrud" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Firebase Crud</Text>
@@ -30,27 +36,28 @@ export default function Index() {
           <Text style={styles.buttonText}>Categorias</Text>
         </Pressable>
       </Link>
-    
-      
+
+
       <Link href="/lojas" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Lojas</Text>
         </Pressable>
       </Link>
-    
+
       <Link href="/about" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Sobre nós!</Text>
         </Pressable>
       </Link>
 
-     
-    
 
 
-</View>
 
-);
+
+
+    </View>
+
+  );
 }
 
 const styles = StyleSheet.create({
@@ -80,11 +87,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingVertical: 15,
     shadowColor: '#000', // Cor da sombra
-        shadowOffset: { width: 0, height: 5 }, // Deslocamento da sombra
-        shadowOpacity: 0.3, // Opacidade da sombra
-        shadowRadius: 10, // Raio da sombra
-        // Sombra para Android
-        elevation: 5, // Elevação para sombra
+    shadowOffset: { width: 0, height: 5 }, // Deslocamento da sombra
+    shadowOpacity: 0.3, // Opacidade da sombra
+    shadowRadius: 10, // Raio da sombra
+    // Sombra para Android
+    elevation: 5, // Elevação para sombra
   },
   buttonText: {
     fontSize: 18,
