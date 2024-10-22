@@ -6,7 +6,7 @@ import imageMapping from './imageMapping';
 export default function Titles() {
     return (
         <ScrollView style={styles.container}>
-            <Text style={styles.title}>Títulos Disponíveis</Text>
+            <Text style={styles.title}>Recomendações</Text>
 
             {list.listTitles.map((item) => (
                 <View key={item.id} style={styles.itemContainer}>

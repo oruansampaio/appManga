@@ -80,7 +80,7 @@ export default function App() {
 
     return (
         <ScrollView style={styles.container}>
-            <Text style={styles.title}>Mangás no Firestore</Text>
+            <Text style={styles.title}>Adicione um mangá lido a sua lista:</Text>
             
             {/* Formulário para adicionar um novo mangá */}
             <View style={styles.form}>

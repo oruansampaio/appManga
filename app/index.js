@@ -9,38 +9,38 @@ export default function Index() {
 
       <Link href="/firebase" style={styles.button} asChild>
         <Pressable>
-          <Text style={styles.buttonText}>Firebase</Text>
+          <Text style={styles.buttonText}>Mangás lidos</Text>
         </Pressable>
       </Link>
 
-      <Link href="/notification" style={styles.button} asChild>
+      {/* <Link href="/notification" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Notificação</Text>
         </Pressable>
-      </Link>
+      </Link> */}
 
       <Link href="/firebaseCrud" style={styles.button} asChild>
         <Pressable>
-          <Text style={styles.buttonText}>Firebase Crud</Text>
+          <Text style={styles.buttonText}>Minha lista</Text>
         </Pressable>
       </Link>
 
       <Link href="/titles" style={styles.button} asChild>
         <Pressable>
-          <Text style={styles.buttonText}>Comece a ler agora!</Text>
+          <Text style={styles.buttonText}>Veja nossas recomendações</Text>
         </Pressable>
       </Link>
 
       <Link href="/categorias" style={styles.button} asChild>
         <Pressable>
-          <Text style={styles.buttonText}>Categorias</Text>
+          <Text style={styles.buttonText}>Conheça as categorias de mangá</Text>
         </Pressable>
       </Link>
 
 
       <Link href="/lojas" style={styles.button} asChild>
         <Pressable>
-          <Text style={styles.buttonText}>Lojas</Text>
+          <Text style={styles.buttonText}>Saiba onde comprar</Text>
         </Pressable>
       </Link>
 

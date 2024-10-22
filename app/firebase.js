@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from './firebaseConfig'; // Importa o Firestore configurado
 
@@ -24,24 +24,52 @@ export default function App() {
     }, []);
 
     return (
-        <View style={{ padding: 20 }}>
-            <Text style={{ fontSize: 24, fontWeight: 'bold' }}>Mangas no Firestore</Text>
+        <ScrollView style={styles.container}>
+            <Text style={styles.title}>Mangás que você já leu</Text>
             {mangas.map(manga => (
-                <View key={manga.id} style={{ marginVertical: 10 }}>
-                    {/* Verifica se o campo "capitulo" existe */}
+                <View key={manga.id} style={styles.itemContainer}>
                     {manga.capitulo && (
-                        <Text style={{ fontSize: 18 }}>Capítulo: {manga.capitulo}</Text>
+                        <Text style={styles.itemText}>Capítulo: {manga.capitulo}</Text>
                     )}
-                    {/* Verifica se o campo "nome" existe */}
                     {manga.nome && (
-                        <Text style={{ fontSize: 18 }}>Nome: {manga.nome}</Text>
+                        <Text style={styles.itemText}>Nome: {manga.nome}</Text>
                     )}
-                    {/* Verifica se o campo "serie" existe */}
                     {manga.serie && (
-                        <Text style={{ fontSize: 18 }}>Série: {manga.serie}</Text>
+                        <Text style={styles.itemText}>Série: {manga.serie}</Text>
                     )}
                 </View>
             ))}
-        </View>
+        </ScrollView>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 20,
+        backgroundColor: '#090909',
+    },
+    title: {
+        textAlign: 'center',
+        fontWeight: 'bold',
+        marginVertical: 20,
+        color: '#f2f2f2',
+        fontSize: 24,
+    },
+    itemContainer: {
+        marginBottom: 20,
+        backgroundColor: '#F2F2F2',
+        borderRadius: 8,
+        padding: 10,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 5 },
+        shadowOpacity: 0.3,
+        shadowRadius: 10,
+        elevation: 5,
+    },
+    itemText: {
+        fontSize: 18,
+        marginVertical: 5,
+        color: '#40363F',
+    },
+});
