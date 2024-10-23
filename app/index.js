@@ -7,23 +7,23 @@ export default function Index() {
       <Text style={styles.title}>MANGAPP</Text>
       <Image style={styles.logo} source={require('../assets/images/logo.png')} />
 
-      <Link href="/firebase" style={styles.button} asChild>
+      {/* <Link href="/firebase" style={styles.button} asChild>
+        <Pressable>
+          <Text style={styles.buttonText}>Mangás lidos teste</Text>
+        </Pressable>
+      </Link> */}
+
+      <Link href="/notification" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Mangás lidos</Text>
         </Pressable>
       </Link>
 
-      {/* <Link href="/notification" style={styles.button} asChild>
-        <Pressable>
-          <Text style={styles.buttonText}>Notificação</Text>
-        </Pressable>
-      </Link> */}
-
-      <Link href="/firebaseCrud" style={styles.button} asChild>
+      {/* <Link href="/firebaseCrud" style={styles.button} asChild>
         <Pressable>
           <Text style={styles.buttonText}>Minha lista</Text>
         </Pressable>
-      </Link>
+      </Link> */}
 
       <Link href="/titles" style={styles.button} asChild>
         <Pressable>
